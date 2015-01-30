@@ -1,0 +1,40 @@
+{
+    "name": "gbili/gbili-file-entity-module",
+    "description": "Zend Framework 2 Module that doctrine file entity",
+    "license": "MIT",
+    "keywords": [
+        "module",
+        "zf2",
+        "doctrine",
+        "media"
+    ],
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/gbili/GbiliDoctrineConfigEventModule"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/gbili/GbiliDoctrineFormObjectModule"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/gbili/GbiliUserModule"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "~2.2",
+        "gbili/gbili-doctrine-config-event-module": "dev-master",
+        "gbili/gbili-doctrine-form-object-module": "dev-master",
+        "gbili/gbili-user-module": "dev-master"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "GbiliFileEntityModule\\": "src/"
+        }
+    }
+}
