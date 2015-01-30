@@ -2,6 +2,6 @@
 namespace GbiliFileEntityModule;
 return array(
     'invokables' => array(
-        'gbiliupmFileHydrator' => __NAMESPACE__ . '\Service\UploadFileHydrator',
+        'gbiliupmUploadFileHydrator' => __NAMESPACE__ . '\Service\UploadFileHydrator',
     ),
 );
